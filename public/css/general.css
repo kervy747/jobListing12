@@ -1,0 +1,33 @@
+:root {
+  --white: #fff;
+  --lightgrey: #ced4da;
+  --darkgrey: #616971;
+  --black: #212529;
+}
+
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 0 0 0;
+  padding: 20px;
+}
+
+a {
+  color: var(--black);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: var(--black);
+}
+
+h1 {
+  display: block;
+}

@@ -1,0 +1,31 @@
+a.aNav {
+  font-size: 20px;
+  color: var(--white);
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+a.aNav:hover {
+  background-color: rgb(91, 91, 91);
+}
+
+a.active {
+  background-color: var(--black);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: var(--darkgrey);
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
